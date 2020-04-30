@@ -1,0 +1,23 @@
+{
+	"name": "nodejs-telegram-bot-template",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"dev": "nodemon --inspect app.js",
+		"start": "pm2 app.js"
+	},
+	"author": "Massacars",
+	"license": "MIT",
+	"dependencies": {
+		"chalk": "^3.0.0",
+		"config": "^3.2.4",
+		"dotenv": "^8.2.0",
+		"pm2": "^4.4.0",
+		"mongoose": "^5.7.12",
+		"node-telegram-bot-api": "^0.40.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.3"
+	}
+}
